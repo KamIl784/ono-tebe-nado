@@ -20,38 +20,8 @@ body {
   justify-content: space-between;
 }
 
-.header__links-list {
-  display: flex;
-  flex-direction: row;
-}
-
-.header__links-list-item {
-}
-
-.header__links-list-item .header__links-list-item_no-bullit {
-  list-style-type: none;
-}
-
-.header__link {
-  text-decoration: underline;
-}
-
-.header__link_active {
-}
-
 .cover {
   padding: ;
-}
-
-.cover-title {
-  color: #fff;
-  font-family: Raleway, sans-serif;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 115%;
-  letter-spacing: 30px;
-  text-transform: uppercase;
 }
 
 .span-left {
