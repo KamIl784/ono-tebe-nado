@@ -20,20 +20,64 @@ body {
   justify-content: space-between;
 }
 
+.content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 25px;
+}
+
+.content-active {
+  list-style: none;
+}
+
 .cover {
   padding: ;
 }
 
+.fon {
+  width: 1440px;
+  height: 757px;
+  flex-shrink: 0;
+  z-index: -1;
+}
+
 .span-left {
-  text-align: left;
+  display: flex;
+  justify-content: left;
+  color: #070707;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 60px;
+  text-transform: uppercase;
 }
 
 .span-center {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #070707;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 60px;
+  text-transform: uppercase;
 }
 
 .span-right {
-  text-align: right;
+  display: flex;
+  justify-content: right;
+  color: #070707;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 60px;
+  text-transform: uppercase;
 }
 
 .lots {
