@@ -1,2 +1,2 @@
 # ono-tebe-nado
-https://github.com/КамИл784/оно-тебе-надо
+https://github.com/KamIl784/ono-tebe-nado
