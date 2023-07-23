@@ -29,11 +29,7 @@ a {
   color: inherit;
 }
 
-.logo {
-  display: flex;
-  justify-items: center;
-  width: 148px;
-  height: 105px;
-  flex-shrink: 0;
+.img {
+  width: 100%;
 }
 
