@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 body {
   min-width: 1100px;
   margin: 0;
