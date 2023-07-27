@@ -7,13 +7,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  overflow-x: hidden;
 }
 
 .header {
   display: flex;
   padding: 92px 50px;
-  padding-bottom: 97px;
+  padding-bottom: 95px;
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -41,8 +40,8 @@
 
 }
 
-.no-bullit {
-    text-decoration: none;
+.no-underline {
+  text-decoration: none;
 }
 
 .logo {
@@ -69,7 +68,7 @@ address {
 }
 
 .cover {
-  padding-right: 50px;
+  padding-right: 51px;
   padding-bottom: 50px;
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -134,14 +133,12 @@ address {
 
 .cover__description {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
-  gap: 84px;
+  gap: 83px;
   position: relative;
-  z-index: 2;
-  max-width: 100%;
-  padding-top: 15px;
-  padding-left: 415px;
+  z-index: 1;
+  padding-top: 17px;
 }
 
 .cover__description-text {
@@ -150,23 +147,26 @@ address {
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 127.273%;
+  line-height: 28px;
   text-transform: uppercase;
   word-spacing: 17px;
-
 }
 
 .bet-button {
-  padding: 12px 32px;
+  width: 257px;
+  height: 52px;
+  border: 1px solid white;
   color: #ffffff;
   text-align: center;
+  padding-bottom: 3px;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  border: 1px solid white;
   white-space: nowrap;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -192,10 +192,7 @@ address {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-}
-
-.card__link {
-  text-decoration: none;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -268,8 +265,8 @@ address {
 
 .about {
   padding-left: 50px;
+  padding-right: 50px;
   padding-top: 182px;
-  max-width: 100%;
   display: grid;
   grid-template-columns: 430px 1fr;
 }
@@ -277,7 +274,6 @@ address {
 .logo__column {
   padding-left: 95px;
   width: 430px;
-  box-sizing: border-box;
 }
 
 .ellipse {
